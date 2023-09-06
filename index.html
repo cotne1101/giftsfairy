@@ -55,7 +55,13 @@
       <input type="number" id="budget" required min="0">
       
       <label for="interests">ინტერესები/ჰობი:</label>
-      <input type="text" id="interests" required>
+<input list="interestSuggestions" type="text" id="interests" required>
+<datalist id="interestSuggestions">
+  <option value="სპორტი">
+  <option value="მუსიკა">
+  <option value="ხელოვნელბა">
+</datalist>
+
       
       <button type="submit">საჩუქრის ძიება</button>
     </form>
